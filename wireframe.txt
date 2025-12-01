@@ -1,1 +1,7 @@
 https://docs.google.com/drawings/d/1o04r1w8gngDvUV7ULe5mSfJZ0bCZGhuKLtkIAEqDLFg/edit
+
+COLORS
+#CFE2F3
+#B4A7D6
+#D5A6BD
+#0b57d0 
