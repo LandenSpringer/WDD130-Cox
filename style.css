@@ -76,7 +76,6 @@ body {
 .project-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 40px 0;
 }
 
 .project-row:nth-child(odd) {
@@ -91,7 +90,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
 }
 
 .project-img img {
