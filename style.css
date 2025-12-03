@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.5;
+}
+
+.navbar {
+    width: 100%;
+    background: #D5A6BD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    border-bottom: 3px solid #0b57d0; 
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 55px;
+}
+
+.studio-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-links a {
+    margin-left: 35px;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: #0b57d0;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #0b57d0;
+    transition: width .3s;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+
+.hero {
+    height: 300px;
+    background-image: url("images/banner.png"); 
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid #0b57d0;
+}
+
+.project-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 0;
+}
+
+.project-row:nth-child(odd) {
+    background-color: #CFE2F3; 
+}
+
+.project-row:nth-child(even) {
+    background-color: #B4A7D6;
+}
+
+.project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-img img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 6px;
+}
+
+.project-text {
+    padding: 20px 40px;
+}
+
+.project-text h2 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.footer {
+    background: #D5A6BD;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    margin-top: 10px;
+    border-top: 3px solid #0b57d0;
+}
+
+.footer-left p,
+.footer-right p {
+    margin-bottom: 6px;
+}
+
+.footer-right {
+    text-align: right;
+}
